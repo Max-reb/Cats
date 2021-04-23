@@ -1,0 +1,122 @@
+.menu {
+	background-color: green;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	margin: 0 3%;
+}
+.menu a:hover {
+	color: black;
+	background-color: red;
+}
+
+.header {
+	background-image: url(img/background.jpg);
+	padding: 10% 5% 2%;
+	background-size: cover;
+}
+
+h1 {
+	margin-top: 0;
+	font-style: italic;
+}
+
+.header p {
+	text-align: right;
+	margin-top: 10%;
+}
+
+.facts {
+	background-color: lightgreen;
+	padding: 10px;
+}
+
+h2 {
+	text-decoration: underline;
+	color: red;
+	text-align: center;
+}
+
+.fact_even {
+	font-style: italic; 
+	margin: 10px;
+}
+
+.fact_odd {
+	font-weight: bold;
+}
+
+img {
+	width: 40%;
+	margin: 5px;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery1 {
+	border: red solid 3px;
+}
+
+.gallery2 {
+	border: blue solid 3px;
+}
+
+.gallery3 {
+	border: green solid 3px;
+}
+
+.gallery4 {
+	border: yellow solid 3px;
+}
+
+form {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	border: green double 4px;
+}
+
+.sand {
+	background-color: lightgreen;
+	padding: 10px;
+}
+
+input,select {
+	width: 70%;
+	padding: 5px 0;
+	margin: 5px;
+	border-radius: 6px;
+	border: green solid 2px;
+}
+
+select {
+	width: 60%;
+}
+
+.input {
+	width: 70%;
+	padding: 10px 0;
+	margin: 5px;
+	border-radius: 6px;
+	border: green solid 2px; 
+}
+
+button {
+	background-color: red;
+	width: 60%;
+	padding: 5px;
+	border: red solid 2px;
+	border-radius: 5px;
+}
